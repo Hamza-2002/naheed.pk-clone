@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style>
+        .contact a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.contact a:hover{
+    color: orange;
+}
+    </style>
+</head>
+<body>
+
+       <!--start of navbar here-->
+<nav class="navbar navbar-expand-lg  bg-dark sticky-top">
+    <div class="container-fluid">
+        <a href="#" class="navbar-brand nav-link"><img src="logo.png" class="img-fluid" style="width: 15rem;"></a>
+    
+    <ul class="navbar-nav ">
+        <li class="nav-item text-uppercase bg-warning text-dark dropdown "><a href="#" class="nav-link text-uppercase bg-warning text-dark dropdown-toggle " data-bs-toggle="dropdown"><ion-icon  size="small" name="reorder-three-outline"  ></ion-icon>departments</a>
+        
+            <ul class="dropdown-menu border border-warning position-absolute " style="transform: ;">
+                <li class="nav-item"><a href="#" class="dropdown-item">groceries & pets</a></li>
+
+                <div class="dropdown-divider"></div>
+                <li class="nav-item"><a href="#" class="dropdown-item">health and beauty</a></li>
+                <div class="dropdown-divider"></div>
+                
+
+                <li class="nav-item"><a href="#" class="dropdown-item">phone and tablets</a></li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item"><a href="#" class="dropdown-item">electronic accessories</a></li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item"><a href="#" class="dropdown-item">tv & home appliances</a></li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item"><a href="#" class="dropdown-item">computing and gaming</a></li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item"><a href="#" class="dropdown-item">women's fashion</a></li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item"><a href="#" class="dropdown-item">man's fashion</a></li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item"><a href="#" class="dropdown-item">home and lifestyle</a></li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item"><a href="#" class="dropdown-item">medical and nutration</a></li> <div class="dropdown-divider"></div>
+                <li class="nav-item"><a href="#" class="dropdown-item">naheed products</a></li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item"><a href="#" class="dropdown-item">deals of the day</a></li>
+            </ul>
+        
+        
+        
+        
+        </li>
+    
+      
+    </ul>
+    <input type="search" class="form-control form-control-sm" placeholder="search here">
+
+    <ul class="navbar-nav ">
+        <li class="nav-item dropdown"><a href="#" class="nav-link  text-white dropdown-toggler" data-bs-toggle="dropdown" style="list-style: none;"><ion-icon name="person" size="large"></ion-icon></a>
+            <ul class="dropdown-menu " style="z-index: 2;">
+                <li><a href="sign.html" class="dropdown-item bg-warning border border-dark text-center rounded-pill text-capitalize" >sign in</a></li>
+                <li><a href="register.html" class="dropdown-item text-center text-capitalize">register</a></li>
+            </ul>
+        </li>
+        
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link  text-white" style="list-style: none;"><ion-icon name="heart" size="large"></ion-icon></a></li>
+        <li class="nav-item "><a href="#" class="nav-link  text-white" style="list-style: none;"><ion-icon name="cart-outline" size="large"></ion-icon></a></li>
+    </ul>
+</div>
+</nav>
+
+<!--end of nav bar-->
+
+<!--2nd bar start-->
+
+<nav  class="navbar navbar-expand-md bg-light shadow">
+    
+    <div class="container-fluid">
+    
+    <ul class="navbar-nav">
+        <li class="nav-item "><i>welcome to naheed.pk!</i></li> &nbsp;&nbsp; &nbsp;&nbsp;
+
+        <li class="nav-item " >  <ion-icon name="call"></ion-icon> (021)111-624-333(111-NAHEED)</li> 
+    </ul>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-nav">
+
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="navbar-collapse collpase" id="navbar-nav">
+    <ul class="navbar-nav ">
+        <li class="nav-item"><a class="nav-link text-capitalize text-dark" href="contactus.html">contact</a></li>
+        <li class="nav-item"><a href="#"  class="nav-link text-capitalize text-dark">help</a></li>
+        <li class="nav-item"><a href="#"  class="nav-link text-capitalize text-dark">track order</a></li>
+        <li class="nav-item"><a href="#"  class="nav-link text-capitalize text-dark ">naheed loyatly</a></li>
+    </ul>
+        </div>
+    </div>
+</nav>
+<!--end of 2nd bar-->
+
+
+<div class="container mt-5  shadow" style="width: 500px; border: 1px solid whitesmoke ">
+
+    <h4 class="text-capitalize">track your order</h4>
+    <form action="" autocomplete="off">
+
+        <label for="number" class="form-lable text-capitalize">order number</label>
+        <input type="tel" class="form-control" id="number">
+
+        <label for="phone" class="form-label text-capitalize">phone number</label>
+        <input type="tel" class="form-control" id="phone">
+
+        <input type="submit" value="Track Order" class="btn btn-warning mt-3  ">
+    </form>
+</div>
+
+
+<!--start of footer-->
+
+<footer class="footer-start bg-dark text-light mt-3">
+
+
+
+    <div class="row contact">
+        <div class="col-lg-3 col-sm-6 mt-4">
+            <h4 class="text-uppercase text-white">contact details</h4>
+            <p class="mt-4"><ion-icon name="location"></ion-icon>156-157, Block3,Byjchs, bahadurabad karachi, pakistan</p>
+            <p><ion-icon name="call"></ion-icon>
+                (021)
+                111-624-333
+                (111-NAHEED)</p>
+            <p><ion-icon name="timer"></ion-icon>
+                Customer Support: Mon-Sat 9:00am - 10:00pm</p>
+        </div>
+
+
+
+        <div class="col-lg-2 col-sm-6 mt-4">
+            <h4 class="text-uppercase text-white">Customer services</h4>
+        
+       <p> <a href="#" class="text-capitalize ">contact us</a></p>
+       <p> <a href="#"  class="text-capitalize ">delivery info</a></p>
+       <p> <a href="#"  class="text-uppercase ">FAQS</a></p>
+       <p> <a href="#"  class="text-capitalize ">naheed loyalty</a></p>
+        
+    
+        </div>
+
+
+
+        <div class="col-lg-3 col-sm-6 mt-4">
+            <h4 class="text-uppercase text-white">information</h4>
+        
+       <p> <a href="#" class="text-capitalize ">return and refund</a></p>
+       <p> <a href="#"  class="text-capitalize ">privacy policy</a></p>
+       <p> <a href="#"  class="text-uppercase ">term & condition</a></p>
+       <p> <a href="#"  class="text-capitalize text-primary"></a><ion-icon name="logo-facebook" size="large"></ion-icon><ion-icon name="logo-instagram" size="large"></ion-icon></p>
+       <p>&nbsp; &nbsp;&nbsp;<a href="#"  class="text-uppercase text-danger "><ion-icon name="logo-youtube" size="large"></ion-icon></a></p>
+    
+        </div>
+
+        
+        <div class="col-lg-4 col-sm-6 mt-4">
+            <h4 class="text-uppercase text-white">subscribe our newsletter</h4>
+        
+       <p class="text-capitalize"> get the latest offers and promotions!</p>
+        
+       <div class="input-group">
+           <input type="email" placeholder="Enter your email " class="form-control">
+           <span class="input-group-text btn-warning">subscribe</span>
+
+       </div>
+       <br>
+       <p><img src="deal/play.png" style="width: 8rem;"></p>
+        
+    
+        </div>
+        
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 justify-content-sm-center">
+            <p>Copyright © 2022 Naheed.pk. All rights reserved</p>
+        </div>
+
+        <div class="col-lg-6 ">
+            <img src="deal/footer/1.png"  class="mx-auto d-block">
+        </div>
+    </div>
+
+</footer>
+<!--end of footer-->
+
+
+ <script src="js/jquary.js"></script>   
+ <script src="js/popper.js"></script>   
+ <script src="js/bootstrap.js"></script>   
+</body>
+</html>
